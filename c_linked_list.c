@@ -21,6 +21,7 @@ void delete_begin(void);
 void delete_after(int);
 void display(void);
 void clear(void);
+void clrscr(void);
 
 #define start NULL
 
@@ -90,10 +91,14 @@ void clear(void)
     }
 }
 
+void clrscr(void)
+{
+    system("@cls||clear");
+}
+
 int main(void)
 {
     int choice, item, loc;
-    ();
     while (1) {
         printf("1. Insert at the end\n2. Insert at the beginning\n3. Insert after a location\n4. Delete from the end\n5. Delete from the beginning\n6. Delete after a location\n7. Display\n8. Exit\n\n");
         printf("Enter your choice: ");
