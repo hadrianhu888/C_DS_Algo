@@ -15,7 +15,7 @@ int main(void)
     for(int i = 0; i < 10; i++)
     {
         printf("Enter roll number: ");
-        scanf("%d", &rollNo[i]);
+        scanf_s("%d", &rollNo[i]);
     }
 
     //printing the array
@@ -29,10 +29,10 @@ int main(void)
     int sum = 0;
     float avg = 0.0;
     printf("Enter the number of students: ");
-    scanf("%d", &n);
+    scanf_s("%d", &n);
     for (i = 0; i < n; i++) {
         printf("Enter marks of student %d: ", i + 1);
-        scanf("%d", &marks[i]);
+        scanf_s("%d", &marks[i]);
         sum += marks[i];
     }
     avg = (float)sum / n;
