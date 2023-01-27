@@ -1,5 +1,9 @@
 /*
 C linked list example implementation
+Author: github.com/hadrianhu888
+Date: 2019-12-01
+Version: 1.0
+Revision: 1 - 2019-12-01
 */
 
 #include <stdio.h>
